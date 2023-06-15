@@ -28,7 +28,7 @@ app.listen(3300, () => {
     console.log('Running on port 3300');
 })
 
-mongoose.connect('mongodb+srv://manohar:manohar@cluster0.nywirg5.mongodb.net/pragnesh').then(() => {
+mongoose.connect('mongodb+srv://manohar:manohar@cluster0.nywirg5.mongodb.net/newDB').then(() => {
     console.log('mongoose connected to database')
 }).catch((err) => {
     console.log(err);
